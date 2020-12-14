@@ -1,0 +1,54 @@
+.container{
+  border: 2px solid black;
+  padding: 10rem 15rem;
+  margin: 5rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.container h1{
+  margin-bottom: 5rem;
+  margin-top: 0;
+  font-weight: 200;
+}
+
+div .binario{
+  max-width: 30rem;
+  margin-bottom: 20px;
+}
+
+div .decimal{
+  max-width: 30rem;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 995px) {
+  h1 {
+    font-size: 3rem !important;
+    line-height: 80%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem !important;
+    line-height: 80%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  h1 {
+    font-size: 2rem !important;
+    line-height: 80%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 80%;
+    margin-top: 10px;
+  }
+}
