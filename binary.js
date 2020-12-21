@@ -1,3 +1,6 @@
 const binarioNumber = document.querySelect("#binário");
+let answer = parseInt(binarioNumber, 2);
 
-// to do: use parseInt to convert bin to dec
+document.querySelect('#decimal').value = answer;
+
+

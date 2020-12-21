@@ -5,6 +5,10 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
+div #botao{
+  margin: 50px;
+}
+
 .container h1{
   margin-bottom: 5rem;
   margin-top: 0;
@@ -20,6 +24,11 @@ div .decimal{
   max-width: 30rem;
   margin-bottom: 20px;
 }
+
+/* 
+Em seguida vou usar media para tornar o site responsivo como mostrado na 
+documentação do Bootstrap
+*/
 
 @media screen and (max-width: 995px) {
   h1 {
