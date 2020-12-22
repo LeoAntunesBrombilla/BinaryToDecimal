@@ -1,6 +1,8 @@
-const binarioNumber = document.querySelect("#binário");
-let answer = parseInt(binarioNumber, 2);
 
-document.querySelect('#decimal').value = answer;
+document.getElementById("converter").addEventListener("click", converter)
 
-
+function converter(){
+    let binarioNumber = document.getElementById("binario").value;
+    let answer = parseInt(binarioNumber, 2);
+    document.getElementById("decimal").value = answer;
+}
