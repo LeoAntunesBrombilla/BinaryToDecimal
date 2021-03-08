@@ -6,7 +6,7 @@
 - [x] Add button
 - [x] Add button functionality
 - [x] Add behavior using javascript to the page
-- [ ] Make Sure that the user input is only binary
+- [x] Make Sure that the user input is only binary
 
 (Work in progress 22/12/2020)
 
